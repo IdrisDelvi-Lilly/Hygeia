@@ -2,7 +2,7 @@ async function askQuestion() {
     const question = document.getElementById('question').value;
     const sessionId = document.getElementById('sessionId').value;
     const responseDiv = document.getElementById('response');
-    const appUrl = 'https://hygeia-pj-demo.azurewebsites.net/api/ask'; // Update with your Azure Function URL
+    const appUrl = 'https://dev-ai-monitor-azfunc-01.azurewebsites.net/api/ask'; // Update with your Azure Function URL
 
     try {
         const response = await fetch(appUrl, {
